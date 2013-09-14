@@ -1,0 +1,109 @@
+body {
+    background-color: lightseagreen;
+    font-family: Helvetica,Arial,sans-serif;   
+    margin: auto;
+}
+
+.container {
+    background-color: white;
+    color: lightseagreen;
+    margin: 32px 0;
+    padding: 20px 30px;
+    min-height: 400px;
+}
+
+.container h1 {
+    background-color: darkcyan; 
+    color: white;
+    text-align: center;
+    margin: -20px -30px 20px -30px;
+    padding: 12px;
+}
+
+.both {
+    clear: both;
+}
+
+#table {
+    list-style-type: none;
+    padding: 0;
+}
+
+#table li {
+    background-color: #F4F4F4;
+    border: 2px solid lightseagreen;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+
+#table li.current-user {
+    background-color: darkseagreen;   
+}
+
+#table li .player-name {
+    float: left;
+    background-color: lightseagreen;
+    color: white;        
+    margin: 0 0 15px -10px;
+    padding: 8px;
+}
+
+#table .cards {
+    list-style-type: none;
+}
+
+#table .cards li {
+    float:left; 
+    background-color: inherit;
+    border: 0;
+    margin-right: 5px;
+    padding: 0;
+    width: 71px;
+    height: 96px;
+}
+
+#table .cards li .active-user-card {
+    cursor: pointer;      
+}
+
+.card-container img {
+	position: absolute;
+}
+
+label {
+    float: left; 
+    text-align: right;
+    margin-right: 12px;
+    width: 120px;
+}
+
+.form-controls {
+    margin-left: 132px;
+    margin-top: 12px;
+}
+
+.log { 
+    background-color: #FFF2B9;
+    font-size: 12px;
+    border: 2px solid lightseagreen;
+    padding: 18px;
+}
+
+#log {
+    display: none;
+}
+
+.btn {
+    background-color: lightseagreen;
+    color: white;    
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 8px; 
+    margin: 8px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: darkseagreen;
+}
